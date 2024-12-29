@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .ad-banner {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .featured-games {
+    flex: 3;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .game-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: normal;
+  }
+  
+  .game-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .game-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .game-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .game-item h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .game-item p {
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .btn-buy {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-buy:hover {
+    background-color: #218838;
+  }
+  
+  .ad-sidebar {
+    flex: 1;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer a {
+    color: #f4f4f9;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
